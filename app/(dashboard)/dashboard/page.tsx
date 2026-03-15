@@ -96,14 +96,14 @@ export default function DashboardPage() {
     },
     {
       title: 'Total Revenue',
-      value: `$${stats.totalRevenue.toFixed(2)}`,
+      value: `VND ${stats.totalRevenue.toFixed(2)}`,
       icon: DollarSign,
       color: 'bg-green-500',
       show: true
     },
     {
       title: 'Total Profit',
-      value: `$${stats.totalProfit.toFixed(2)}`,
+      value: `VND ${stats.totalProfit.toFixed(2)}`,
       icon: TrendingUp,
       color: 'bg-purple-500',
       show: isAdmin
